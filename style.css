@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first-div {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+input {
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-top: 20px;
+  box-shadow: grey 2px, 2px, 5px, 5px;
+  background: white;
+  color: black;
+}
+
+.btn {
+  background: rgb(235, 57, 57);
+  cursor: pointer;
+  transition: background-color 1s;
+  padding: 10px 12px;
+  color: white;
+  border-radius: 12px;
+  border: 0;
+}
+
+.btn:hover {
+  background: rgb(228, 113, 113);
+  color: black;
+}
